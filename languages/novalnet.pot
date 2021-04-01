@@ -1,0 +1,325 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Novalnet Payment Plugin - Tickera\n"
+"POT-Creation-Date: 2020-12-11 11:36+0530\n"
+"PO-Revision-Date: 2016-02-11 15:38+0530\n"
+"Last-Translator: \n"
+"Language-Team: Novalnet <sales@novalnet.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: novalnet-callback-api.php:65 novalnet-callback-api.php:157
+#, php-format
+msgid ""
+"Novalnet Callback Script executed successfully for the TID: %s with amount "
+"%s %s on %s. Please refer PAID transaction in our Novalnet Merchant "
+"Administration with the TID: %s"
+msgstr ""
+
+#: novalnet-callback-api.php:74 novalnet-callback-api.php:524
+#: novalnet/class.novalnet.php:464
+msgid "Novalnet Transaction ID : "
+msgstr ""
+
+#: novalnet-callback-api.php:77 novalnet-callback-api.php:527
+#: novalnet/class.novalnet.php:463
+msgid "Test order"
+msgstr ""
+
+#: novalnet-callback-api.php:115
+#, php-format
+msgid ""
+" Novalnet callback received. Refund/Bookback executed successfully for the "
+"TID: %s amount: %s %s on %s. The subsequent TID: %s."
+msgstr ""
+
+#: novalnet-callback-api.php:115
+#, php-format
+msgid ""
+" Novalnet callback received. Chargeback executed successfully for the TID: "
+"%s amount: %s %s on %s. The subsequent TID: %s."
+msgstr ""
+
+#: novalnet-callback-api.php:583 novalnet/class.novalnet.php:434
+msgid "Credit Card"
+msgstr ""
+
+#: novalnet-callback-api.php:584 novalnet/class.novalnet.php:435
+msgid "Direct Debit SEPA"
+msgstr ""
+
+#: novalnet-callback-api.php:585
+msgid "iDeal"
+msgstr ""
+
+#: novalnet-callback-api.php:586 novalnet/class.novalnet.php:436
+msgid "Instant Bank Transfer"
+msgstr ""
+
+#: novalnet-callback-api.php:587 novalnet/class.novalnet.php:437
+msgid "PayPal"
+msgstr ""
+
+#: novalnet-callback-api.php:588 novalnet-callback-api.php:589
+#: novalnet/class.novalnet.php:442
+msgid "Prepayment"
+msgstr ""
+
+#: novalnet-callback-api.php:592 novalnet-callback-api.php:593
+#: novalnet/class.novalnet.php:444
+msgid "Invoice"
+msgstr ""
+
+#: novalnet-payment-gateway.php:75 novalnet-payment-gateway.php:365
+msgid "Novalnet Payment"
+msgstr ""
+
+#: novalnet-payment-gateway.php:76
+msgid "Pay with Novalnet (over 100 payment methods worldwide)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:119
+msgid "Settings"
+msgstr ""
+
+#: novalnet-payment-gateway.php:147
+msgid "You will be redirected to Novalnet AG in a few seconds"
+msgstr ""
+
+#: novalnet-payment-gateway.php:147
+msgid "Continue"
+msgstr ""
+
+#: novalnet-payment-gateway.php:217
+msgid "Please fill in all the mandatory fields"
+msgstr ""
+
+#: novalnet-payment-gateway.php:221
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: novalnet-payment-gateway.php:227 novalnet-payment-gateway.php:320
+msgid "Enable test mode"
+msgstr ""
+
+#: novalnet-payment-gateway.php:229
+msgid ""
+"The payment will be processed in the test mode therefore amount for this "
+"transaction will not be charged"
+msgstr ""
+
+#: novalnet-payment-gateway.php:234
+msgid "Merchant ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:236
+msgid "Enter Novalnet merchant ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:241
+msgid "Authentication code"
+msgstr ""
+
+#: novalnet-payment-gateway.php:243
+msgid "Enter Novalnet authentication code"
+msgstr ""
+
+#: novalnet-payment-gateway.php:248
+msgid "Project ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:250
+msgid "Enter Novalnet project ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:255
+msgid "Tariff ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:257
+msgid "Enter Novalnet tariff ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:262
+msgid "Payment access key"
+msgstr ""
+
+#: novalnet-payment-gateway.php:264
+msgid "Enter the Novalnet payment access key"
+msgstr ""
+
+#: novalnet-payment-gateway.php:269
+msgid "Set a limit for on-hold transaction (in cents)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:271
+msgid ""
+"In case the order amount exceeds mentioned limit, the transaction will be "
+"set on hold till your confirmation of transaction"
+msgstr ""
+
+#: novalnet-payment-gateway.php:276
+msgid "Referrer ID"
+msgstr ""
+
+#: novalnet-payment-gateway.php:278
+msgid ""
+"Enter the referrer ID of the person/company who recommended you Novalnet"
+msgstr ""
+
+#: novalnet-payment-gateway.php:283
+msgid "SEPA Payment duration (in days)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:285
+msgid ""
+"Enter the number of days after which the payment should be processed (must "
+"be greater than 6 days)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:290
+msgid "Payment due date (in days)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:292
+msgid ""
+"Enter the number of days to transfer the payment amount to Novalnet (must be "
+"greater than 7 days). In case if the field is empty, 14 days will be set as "
+"due date by default"
+msgstr ""
+
+#: novalnet-payment-gateway.php:297
+msgid "Transaction reference 1"
+msgstr ""
+
+#: novalnet-payment-gateway.php:299 novalnet-payment-gateway.php:306
+msgid "This reference will appear in your bank account statement"
+msgstr ""
+
+#: novalnet-payment-gateway.php:304
+msgid "Transaction reference 2"
+msgstr ""
+
+#: novalnet-payment-gateway.php:312
+msgid "Enable E-mail notification for callback"
+msgstr ""
+
+#: novalnet-payment-gateway.php:327
+msgid "Enable debug mode"
+msgstr ""
+
+#: novalnet-payment-gateway.php:329
+msgid "Set the debug mode to execute the merchant script in debug mode"
+msgstr ""
+
+#: novalnet-payment-gateway.php:334
+msgid "E-mail address (To)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:336
+msgid "E-mail address of the recipient"
+msgstr ""
+
+#: novalnet-payment-gateway.php:340
+msgid "E-mail address (Bcc)"
+msgstr ""
+
+#: novalnet-payment-gateway.php:342
+msgid "E-mail address of the recipient for BCC"
+msgstr ""
+
+#: novalnet/class.novalnet.php:36
+msgid "Basic parameter not valid"
+msgstr ""
+
+#: novalnet/class.novalnet.php:315
+msgid ""
+"Please transfer the amount to the below mentioned account details of our "
+"payment processor Novalnet"
+msgstr ""
+
+#: novalnet/class.novalnet.php:316
+msgid "Due date : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:317
+msgid "Account holder : Novalnet AG"
+msgstr ""
+
+#: novalnet/class.novalnet.php:322
+msgid "Amount : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:324
+msgid ""
+"Please use any one of the following references as the payment reference, as "
+"only through this way your payment is matched and assigned to the order : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:326
+msgid "Payment Reference 1 : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:326
+msgid "Payment Reference 2 : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:326
+msgid "Payment Reference 3 : "
+msgstr ""
+
+#: novalnet/class.novalnet.php:326
+msgid "Order number "
+msgstr ""
+
+#: novalnet/class.novalnet.php:418
+msgid "novalnet_cc"
+msgstr ""
+
+#: novalnet/class.novalnet.php:419 novalnet/class.novalnet.php:427
+msgid "novalnet_prepayment"
+msgstr ""
+
+#: novalnet/class.novalnet.php:419 novalnet/class.novalnet.php:429
+msgid "novalnet_invoice"
+msgstr ""
+
+#: novalnet/class.novalnet.php:420
+msgid "novalnet_sepa"
+msgstr ""
+
+#: novalnet/class.novalnet.php:421
+msgid "novalnet_instant"
+msgstr ""
+
+#: novalnet/class.novalnet.php:422
+msgid "novalnet_paypal"
+msgstr ""
+
+#: novalnet/class.novalnet.php:423
+msgid "novalnet_ideal"
+msgstr ""
+
+#: novalnet/class.novalnet.php:438
+msgid "iDEAL"
+msgstr ""
+
+#: novalnet/class.novalnet.php:475
+msgid ""
+"Tickera plugin must be active for the plugin <b>Novalnet Payment Gateway for "
+"Tickera</b>"
+msgstr ""
+
+#: novalnet/class.novalnet.php:516
+msgid "Order Received"
+msgstr ""
